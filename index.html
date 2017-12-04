@@ -2,42 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- You need this meta tag in order to properly have a responsive site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Busy Bus </title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
     <body>
-      <section class="top container">
+      <!-- You should seperate the different areas of this app, header, map, routes and then menu -->
+      <section class="header">
         <nav>
           <div class="back arrow">
             <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
           </div>
           <div class="stop">
-          <h2>Washington &amp State</h2>
-        </div>
+            <!-- In order to have an ampersand sign, remember to add the ; at the end of the unicode character -->
+            <h2>Washington &amp; State</h2>
+          </div>
           <div class="menu"></div>
 
           <div class="Time">Time
-          <div class="statusbar">
-            <img src>
-          </div>
+            <!-- This should be a input element, research forms and their elements to better structure this -->
+            <div class="statusbar">
+              <img src>
+            </div>
           </div>
         </nav>
+      </section>
 
       <div class="map image">
         <img src>
       </div>
 
-      <div class="bus-line"> B60
-        <div class="destination">Randolph/Harbor DR
-          <span>(Eastbound)</span></div>
-        <div class="frequency">Every 20 min </div>
-      </div>
-      <div class="bus-line"> B124
-        <div class="destination">Navy Pier
-          <span>(Eastbound)</span></div>
-        <div class="frequency">Every 10 min </div>
-      </div>
-    </section>
+      <!-- you should probably contain this content so that it's seperated from the other areas -->
+      <section class="routes">
+        <div class="bus-line"> B60
+          <div class="destination">Randolph/Harbor DR
+            <span>(Eastbound)</span></div>
+          <div class="frequency">Every 20 min </div>
+        </div>
+        <div class="bus-line"> B124
+          <div class="destination">Navy Pier
+            <span>(Eastbound)</span></div>
+          <div class="frequency">Every 10 min </div>
+        </div>
+      </section>
 
+      <!-- where is your main menu? -->
+
+<!-- you're missing your closing body tag here -->
+</body>
 </html>

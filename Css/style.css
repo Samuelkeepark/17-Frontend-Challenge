@@ -4,69 +4,151 @@
   box-sizing: border-box;
 }
 
-.arrow {
-	padding-left: 15px;
-	padding-top: 39px;
+.statusbar {
+  width: 100%;
+}
+
+.statusbar .arrow {
+  display: inline-block;
+  text-align: left;
+  width: 14%;
+  padding-left: 16px;
+  margin-right: -4px;
+}
+
+.statusbar .stop {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  margin-right: -4px;
+}
+
+.statusbar .menu {
+  display: inline-block;
+  position: fixed;
+  text-align: right;
+  width: 12%;
+  padding-right: 16px;
+  margin-right: -4px;
+  padding-top: 20px;
 }
 
 h2 {
 	font-size: 22px;
 	font-family: verdana, sans-serif;
 	font-weight: normal;
-	padding-left: 70px;
-	padding-right: 99px;
-	margin-top: -29px;
 }
 
-h3 {
-	Font-size: 18px;
-	font-family: verdana, sans-serif;
-	font-weight: normal;
-	padding-left: 14px;
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 137px;
+  background-color: #FAFAFA;
 }
 
-.menu {
-	padding-left: 335px;
-	margin-top: -41px;
+.time {
+  font-family: verdana, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  width: 100%;
+  position: fixed;
 }
 
-.leave-at {
-	padding-left: 72px;
-	margin-top: -39px;
-	padding-bottom: 15px;
+.time label {
+  display: inline-block;
+  text-align: left;
+  width: 14%;
+  padding-left: 16px;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.time input {
+  display: inline-block;
+  width: 75%;
+  height: 30px;
+  padding-right: 15px;
+  padding-left: 10px;
+  position: fixed;
 }
 
 .resizedTextbox {
 	width: 290px;
 	height: 18px;
-	background-color: #FCFCFC
+	background-color: #FCFCFC;
 }
 
 body {
-	background-color: #FAFAFA
+	background-color: #FFFFFF;
+  margin-bottom: 50px;
+  margin-top: 137px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #map {
-	padding-left: 5px;
 	padding-bottom: 20px;
 }
 
+#map img {
+  width: 100%;
+}
+
+#routes {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+#routes article {
+  font-family: verdana, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
 #bus-pic {
-	padding-left: 8px;
+	padding-left: 16px;
 }
 
 .bus-line {
-	padding-left: 5px;
+	padding-left: 14px;
 }
 
 .destination {
-	Padding-left: 50px;
-	margin-top: -45px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: verdana, sans-serif;
 }
 
 .frequency {
-	Padding-left: 50px;
-	margin-top: -3px;
-	padding-bottom: 18px;
-	padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: verdana, sans-serif;
+}
+
+.bottom-menu {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: #FAFAFA;
+}
+
+.bottom-menu a {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  margin-right: -4px;
+}
+
+.bottom-menu a span {
+  display: block;
 }

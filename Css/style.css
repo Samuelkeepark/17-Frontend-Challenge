@@ -35,7 +35,6 @@
 
 h2 {
 	font-size: 22px;
-	font-family: verdana, sans-serif;
 	font-weight: normal;
 }
 
@@ -49,7 +48,6 @@ h2 {
 }
 
 .time {
-  font-family: verdana, sans-serif;
   font-weight: normal;
   font-size: 18px;
   width: 100%;
@@ -68,10 +66,12 @@ h2 {
 .time input {
   display: inline-block;
   width: 75%;
-  height: 30px;
+  height: 36px;
   padding-right: 15px;
   padding-left: 10px;
   position: fixed;
+  font-size: 14px;
+  border: 1px solid #D1D0D0;
 }
 
 .resizedTextbox {
@@ -84,41 +84,57 @@ body {
   margin-top: 137px;
   margin-left: 0px;
   margin-right: 0px;
+  font-family: Verdana, sans-serif;
 }
 
 #map {
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 }
 
 #map img {
   width: 100%;
+  display: block;
+}
+
+#routes {
+  border-top: 1px solid #DBDBDB;
 }
 
 .row {
   width: 100%;
-  margin-bottom: 3px;
   background-color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.row p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row h2 {
+  margin: 0px;
+  padding: 0px;
 }
 
 .row .left {
   width: 12%;
   display: inline-block;
   text-align: center;
-  height: 75px;
 }
 
 .row .center {
-  width: 75%;
+  width: 70%;
   display: inline-block;
-  text-align: center;
-  height: 75px;
+  text-align: left;
 }
 
 .row .right {
   width: 12%;
   display: inline-block;
-  text-align: center;
-  height: 75px;
+  text-align: left;
+  vertical-align: top;
 }
 
 .bottom-menu {
@@ -128,6 +144,9 @@ body {
   left: 0;
   height: 50px;
   background-color: #FAFAFA;
+  font-size: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #DBDBDB;
 }
 
 .bottom-menu a {
@@ -135,6 +154,8 @@ body {
   display: inline-block;
   width: 33%;
   margin-right: -4px;
+  text-decoration: none;
+  color: black;
 }
 
 .bottom-menu a span {

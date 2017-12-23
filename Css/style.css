@@ -64,6 +64,7 @@ h2 {
 }
 
 .time input {
+  font-family: Arial, sans-serif;
   display: inline-block;
   width: 75%;
   height: 36px;

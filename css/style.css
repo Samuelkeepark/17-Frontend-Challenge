@@ -1,0 +1,173 @@
+@import "reset.css"
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.statusbar {
+  width: 100%;
+}
+
+.statusbar .arrow {
+  display: inline-block;
+  text-align: left;
+  width: 14%;
+  padding-left: 16px;
+  margin-right: -4px;
+  margin-top: -8px;
+}
+
+.statusbar .stop {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  margin-right: -4px;
+}
+
+.statusbar .menu {
+  display: inline-block;
+  position: fixed;
+  text-align: right;
+  width: 11%;
+  padding-right: 16px;
+  margin-right: -4px;
+  padding-top: 20px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 137px;
+  background-color: #FAFAFA;
+}
+
+.time {
+  font-weight: normal;
+  font-size: 18px;
+  width: 100%;
+  position: fixed;
+}
+
+.time label {
+  display: inline-block;
+  text-align: left;
+  width: 10%;
+  padding-left: 16px;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.time input {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  width: 75%;
+  height: 36px;
+  padding-right: 15px;
+  padding-left: 10px;
+  position: fixed;
+  font-size: 14px;
+  border: 1px solid #D1D0D0;
+}
+
+.resizedTextbox {
+	background-color: #FCFCFC;
+}
+
+body {
+	background-color: #FFFFFF;
+  margin-bottom: 50px;
+  margin-top: 137px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Verdana, sans-serif;
+}
+
+#map {
+	padding-bottom: 0px;
+}
+
+#map img {
+  width: 100%;
+  display: block;
+}
+
+#routes {
+  border-top: 1px solid #DBDBDB;
+  margin-bottom: 15px;
+}
+
+.row {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.row p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.row .left {
+  width: 12%;
+  display: inline-block;
+  text-align: center;
+}
+
+.row .center {
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+}
+
+.row .right {
+  width: 12%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.right p {
+  font-size: 12px;
+}
+
+
+
+.bottom-menu {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  background-color: #FAFAFA;
+  font-size: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #DBDBDB;
+}
+
+.bottom-menu a {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  margin-right: -4px;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-menu a span {
+  display: block;
+}

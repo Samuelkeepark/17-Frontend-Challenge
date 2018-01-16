@@ -14,7 +14,7 @@
   width: 15%;
   padding-left: 20px;
   margin-right: -4px;
-  margin-top: 30px;
+  padding-top: 26px;
 }
 
 .statusbar .stop {
@@ -22,6 +22,7 @@
   text-align: center;
   width: 70%;
   margin-right: -4px;
+  padding-top: 24px;
 }
 
 .statusbar .menu {
@@ -29,9 +30,9 @@
   position: fixed;
   text-align: right;
   width: 15%;
-  padding-right: 16px;
+  padding-right: 20px;
   margin-right: -4px;
-  padding-top: 30px;
+  margin-top: 25px;
 }
 
 h2 {
@@ -60,7 +61,7 @@ h2 {
   display: inline-block;
   text-align: left;
   width: 22%;
-  padding-left: 16px;
+  padding-left: 19px;
   padding-top: 32px;
 }
 
@@ -69,7 +70,7 @@ h2 {
   display: inline-block;
   width: 75%;
   margin-top: 27px;
-  padding-left: 15px;
+  padding-left: 9px;
   height: 36px;
   position: fixed;
   font-size: 14px;
@@ -126,7 +127,7 @@ body {
   width: 14%;
   display: inline-block;
   text-align: center;
-  padding-left: 13px;
+  padding-left: 16px;
 }
 
 .row .left p {
@@ -138,6 +139,7 @@ body {
   display: inline-block;
   text-align: left;
   padding-left: 10px;
+  margin-top: 1px;
 }
 
 .row .right {
@@ -147,13 +149,12 @@ body {
   text-align: left;
   vertical-align: top;
   margin-right: 11px;
+  margin-top: 5px;
 }
 
 .right p {
   font-size: 12px;
 }
-
-
 
 .bottom-menu {
   position: fixed;
@@ -163,7 +164,7 @@ body {
   height: 51px;
   background-color: #FAFAFA;
   font-size: 10px;
-  padding-top: 5px;
+  padding-top: 3px;
   border-top: 1px solid #DBDBDB;
 }
 

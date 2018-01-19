@@ -54,6 +54,7 @@ h2 {
   left: 0;
   height: 137px;
   background-color: #FAFAFA;
+  z-index: 100;
 }
 
 .time {
@@ -69,7 +70,7 @@ h2 {
   display: inline-block;
   text-align: left;
   width: 22%;
-  padding-left: 19px;
+  padding-left: 17px;
   padding-top: 25px;
 }
 
